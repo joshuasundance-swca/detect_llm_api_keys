@@ -7,4 +7,6 @@ pats: dict[str, re.Pattern] = {
     "langchain": re.compile(r"^ls__[a-zA-Z0-9]{32}$"),
     "openai": re.compile(r"^sk-[a-zA-Z0-9]{48}$"),
     "mistral": re.compile(r"^[a-zA-Z0-9]{32}$"),
+    "cohere": re.compile(r"^[a-zA-Z0-9]{40}$"),
+    "huggingface": re.compile(r"^hf_[a-zA-Z0-9]{34}$"),
 }
