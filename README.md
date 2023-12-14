@@ -1,6 +1,6 @@
 # detect_llm_api_keys
 
-improved esri rest io for geopandas
+scan python files for llm api keys (designed for pre-commit)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
