@@ -23,4 +23,11 @@ scan python files for llm api keys (designed for pre-commit)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 ![Known Vulnerabilities](https://snyk.io/test/github/joshuasundance-swca/detect_llm_api_keys/badge.svg)
 
-# TODO
+
+```.pre-commit-config.yaml
+repos:
+-   repo: https://github.com/joshuasundance-swca/detect_llm_api_keys
+    rev: "0.0.2"
+    hooks:
+    -   id: detect-llm-api-keys
+```
