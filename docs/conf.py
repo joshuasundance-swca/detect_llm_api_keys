@@ -27,7 +27,7 @@ napoleon_use_ivar = True
 project = 'detect_llm_api_keys'
 copyright = '2023, Joshua Sundance Bailey'
 author = 'Joshua Sundance Bailey'
-release = '0.0.2'
+release = '0.0.3'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

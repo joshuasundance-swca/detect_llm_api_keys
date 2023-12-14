@@ -47,7 +47,7 @@ To use `detect_llm_api_keys` in your project, update your `.pre-commit-config.ya
 ```.pre-commit-config.yaml
 repos:
 -   repo: https://github.com/joshuasundance-swca/detect_llm_api_keys
-    rev: "0.0.2"
+    rev: "0.0.3"
     hooks:
     -   id: detect-llm-api-keys
 ```
