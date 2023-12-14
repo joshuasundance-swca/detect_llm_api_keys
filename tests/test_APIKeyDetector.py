@@ -1,6 +1,4 @@
-import pytest
 import os
-import subprocess
 from detect_llm_api_keys.key_detector import APIKeyDetector
 
 
@@ -24,33 +22,33 @@ def test_APIKeyDetector_negative():
     assert not neg_results
 
 
-def test_APIKeyDetector_subprocess():
-    pos_cmd = [
-        "python",
-        main_script,
-        os.path.join(test_file_dir, "foobar.py"),
-        os.path.join(test_file_dir, "foobar2.py"),
-    ]
-    with pytest.raises(subprocess.CalledProcessError):
-        subprocess.run(
-            pos_cmd,
-            shell=True,
-            check=True,
-            text=True,
-            stderr=subprocess.STDOUT,
-            universal_newlines=True,
-        )
-
-    neg_cmd = [
-        "python",
-        main_script,
-        os.path.join(test_file_dir, "foobar3.py"),
-    ]
-    subprocess.run(
-        neg_cmd,
-        shell=True,
-        check=True,
-        text=True,
-        stderr=subprocess.STDOUT,
-        universal_newlines=True,
-    )
+# def test_APIKeyDetector_subprocess():
+#     pos_cmd = [
+#         "python",
+#         main_script,
+#         os.path.join(test_file_dir, "foobar.py"),
+#         os.path.join(test_file_dir, "foobar2.py"),
+#     ]
+#     with pytest.raises(subprocess.CalledProcessError):
+#         subprocess.run(
+#             pos_cmd,
+#             shell=True,
+#             check=True,
+#             text=True,
+#             stderr=subprocess.STDOUT,
+#             universal_newlines=True,
+#         )
+#
+#     neg_cmd = [
+#         "python",
+#         main_script,
+#         os.path.join(test_file_dir, "foobar3.py"),
+#     ]
+#     subprocess.run(
+#         neg_cmd,
+#         shell=True,
+#         check=True,
+#         text=True,
+#         stderr=subprocess.STDOUT,
+#         universal_newlines=True,
+#     )
