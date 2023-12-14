@@ -24,6 +24,26 @@ scan python files for llm api keys (designed for pre-commit)
 ![Known Vulnerabilities](https://snyk.io/test/github/joshuasundance-swca/detect_llm_api_keys/badge.svg)
 
 
+🤖 This README was written by GPT-4. 🤖
+
+
+## Introduction
+`detect_llm_api_keys` is a vital tool for Python developers, especially those working with large language models (LLMs). It's a pre-commit hook that efficiently scans your Python files to detect and prevent the accidental committing of LLM API keys, enhancing the security of your projects.
+
+## Features
+- **Efficient API Key Detection**: Scans for keys from major providers like `Anthropic`, `Anyscale`, `Microsoft Azure`, `LangChain`, `OpenAI`, and `Mistral AI`.
+- **Easy Integration**: Seamlessly integrates with your existing Python projects.
+- **Support for Various API Key Patterns**: Recognizes a range of patterns, ensuring comprehensive protection.
+- **Compatibility with nosec and noqa Comments**: Respects your code's existing security annotations.
+
+## Getting Started
+1. **Installation**: Add `detect_llm_api_keys` to your `.pre-commit-config.yaml` file.
+2. **Configuration**: Customize the settings as per your project requirements.
+3. **Usage**: Automatically scans files upon each commit, flagging potential API key exposures.
+
+## Usage
+To use `detect_llm_api_keys` in your project, update your `.pre-commit-config.yaml` as follows:
+
 ```.pre-commit-config.yaml
 repos:
 -   repo: https://github.com/joshuasundance-swca/detect_llm_api_keys
@@ -31,3 +51,12 @@ repos:
     hooks:
     -   id: detect-llm-api-keys
 ```
+
+## Collaboration and Contributions
+Feedback, suggestions, and contributions are highly welcomed to enhance `detect_llm_api_keys`. Please feel free to open issues or submit pull requests on GitHub.
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+Special thanks to the Python and Open Source communities for their invaluable support and contributions.
