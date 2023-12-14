@@ -1,0 +1,6 @@
+- id: detect-llm-api-keys
+  name: Detect LLM API Keys
+  description: A hook to detect and prevent committing LLM API keys in Python flies.
+  entry: detect_llm_api_keys
+  language: python
+  types: [python]
