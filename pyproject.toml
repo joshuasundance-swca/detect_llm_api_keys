@@ -57,7 +57,7 @@ push = true
 "pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
 "detect_llm_api_keys/__init__.py" = ['__version__ = "{version}"']
 "docs/conf.py" = ["release = '{version}'"]
-
+"README.md" = ['    rev: "{version}"']
 
 [tool.coverage.run]
 branch = true
