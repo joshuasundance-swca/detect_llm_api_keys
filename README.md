@@ -8,7 +8,7 @@ scan python files for llm api keys (designed for pre-commit)
 
 [![Publish to PyPI](https://github.com/joshuasundance-swca/detect_llm_api_keys/actions/workflows/publish_on_pypi.yml/badge.svg)](https://github.com/joshuasundance-swca/detect_llm_api_keys/actions/workflows/publish_on_pypi.yml)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/joshuasundance-swca/detect_llm_api_keys)
-[![Read the Docs](https://img.shields.io/readthedocs/detect_llm_api_keys)](https://detect_llm_api_keys.readthedocs.io/en/latest/)
+[![Read the Docs](https://img.shields.io/readthedocs/detect_llm_api_keys)](https://detect-llm-api-keys.readthedocs.io/en/latest/)
 
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/joshuasundance-swca/detect_llm_api_keys)
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/joshuasundance-swca/detect_llm_api_keys)
