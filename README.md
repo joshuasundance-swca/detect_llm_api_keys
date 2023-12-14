@@ -31,7 +31,15 @@ scan python files for llm api keys (designed for pre-commit)
 `detect_llm_api_keys` is a vital tool for Python developers, especially those working with large language models (LLMs). It's a pre-commit hook that efficiently scans your Python files to detect and prevent the accidental committing of LLM API keys, enhancing the security of your projects.
 
 ## Features
-- **Efficient API Key Detection**: Scans for keys from major providers like `Anthropic`, `Anyscale`, `Microsoft Azure`, `LangChain`, `OpenAI`, and `Mistral AI`.
+- **Efficient API Key Detection**: Scans for keys from major providers like 
+  - Anthropic
+  - Anyscale Endpoints
+  - OpenAI Service on Microsoft Azure
+  - LangChain (LangSmith)
+  - OpenAI
+  - Cohere
+  - Hugging Face
+  - Mistral AI
 - **Easy Integration**: Seamlessly integrates with your existing Python projects.
 - **Support for Various API Key Patterns**: Recognizes a range of patterns, ensuring comprehensive protection.
 - **Compatibility with nosec and noqa Comments**: Respects your code's existing security annotations.
