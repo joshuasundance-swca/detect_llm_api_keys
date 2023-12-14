@@ -7,7 +7,7 @@ packages = ["detect_llm_api_keys"]
 
 [project]
 name = "detect_llm_api_keys"
-version = "0.0.1"
+version = "0.0.2"
 description = "scan python files for llm api keys (designed for pre-commit)"
 authors = [{ name = "Joshua Sundance Bailey" }]
 readme = "README.md"
@@ -44,7 +44,7 @@ doc = [
 ]
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "Bump version {old_version} -> {new_version}"
 commit = true
