@@ -24,7 +24,7 @@ colorama==0.4.6
     #   click
     #   pytest
     #   sphinx
-coverage==7.3.3
+coverage==7.3.4
     # via
     #   coverage-badge
     #   detect-llm-api-keys (pyproject.toml)
