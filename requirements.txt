@@ -38,7 +38,7 @@ docutils==0.20.1
     #   sphinx-rtd-theme
 filelock==3.13.1
     # via virtualenv
-identify==2.5.34
+identify==2.5.35
     # via pre-commit
 idna==3.6
     # via requests
@@ -64,11 +64,11 @@ platformdirs==4.2.0
     # via virtualenv
 pluggy==1.4.0
     # via pytest
-pre-commit==3.6.1
+pre-commit==3.6.2
     # via detect-llm-api-keys (pyproject.toml)
 pygments==2.17.2
     # via sphinx
-pytest==8.0.0
+pytest==8.0.1
     # via detect-llm-api-keys (pyproject.toml)
 pyyaml==6.0.1
     # via pre-commit
@@ -104,7 +104,7 @@ sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 toml==0.10.2
     # via bumpver
-urllib3==2.2.0
+urllib3==2.2.1
     # via requests
 virtualenv==20.25.0
     # via pre-commit
