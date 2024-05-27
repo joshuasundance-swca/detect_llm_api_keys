@@ -6,7 +6,7 @@
 #
 alabaster==0.7.16
     # via sphinx
-babel==2.14.0
+babel==2.15.0
     # via sphinx
 bumpver==2023.1129
     # via detect-llm-api-keys (pyproject.toml)
@@ -24,29 +24,29 @@ colorama==0.4.6
     #   click
     #   pytest
     #   sphinx
-coverage==7.4.1
+coverage==7.5.2
     # via
     #   coverage-badge
     #   detect-llm-api-keys (pyproject.toml)
-coverage-badge==1.1.0
+coverage-badge==1.1.1
     # via detect-llm-api-keys (pyproject.toml)
 distlib==0.3.8
     # via virtualenv
-docutils==0.20.1
+docutils==0.21.2
     # via
     #   sphinx
     #   sphinx-rtd-theme
-filelock==3.13.1
+filelock==3.14.0
     # via virtualenv
-identify==2.5.34
+identify==2.5.36
     # via pre-commit
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.3
+jinja2==3.1.4
     # via sphinx
 lexid==2021.1006
     # via bumpver
@@ -56,27 +56,27 @@ markupsafe==2.1.5
     # via jinja2
 nodeenv==1.8.0
     # via pre-commit
-packaging==23.2
+packaging==24.0
     # via
     #   pytest
     #   sphinx
-platformdirs==4.2.0
+platformdirs==4.2.2
     # via virtualenv
-pluggy==1.4.0
+pluggy==1.5.0
     # via pytest
-pre-commit==3.6.1
+pre-commit==3.7.1
     # via detect-llm-api-keys (pyproject.toml)
-pygments==2.17.2
+pygments==2.18.0
     # via sphinx
-pytest==8.0.0
+pytest==8.2.1
     # via detect-llm-api-keys (pyproject.toml)
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.2
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==7.2.6
+sphinx==7.3.7
     # via
     #   detect-llm-api-keys (pyproject.toml)
     #   sphinx-rtd-theme
@@ -104,9 +104,9 @@ sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 toml==0.10.2
     # via bumpver
-urllib3==2.2.0
+urllib3==2.2.1
     # via requests
-virtualenv==20.25.0
+virtualenv==20.26.2
     # via pre-commit
 
 # The following packages are considered to be unsafe in a requirements file:
