@@ -40,7 +40,7 @@ filelock==3.13.1
     # via virtualenv
 identify==2.5.34
     # via pre-commit
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -72,7 +72,7 @@ pytest==8.0.0
     # via detect-llm-api-keys (pyproject.toml)
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.2
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
@@ -104,7 +104,7 @@ sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
 toml==0.10.2
     # via bumpver
-urllib3==2.2.0
+urllib3==2.2.2
     # via requests
 virtualenv==20.25.0
     # via pre-commit
