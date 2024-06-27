@@ -40,13 +40,13 @@ filelock==3.13.1
     # via virtualenv
 identify==2.5.34
     # via pre-commit
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.3
+jinja2==3.1.4
     # via sphinx
 lexid==2021.1006
     # via bumpver
@@ -72,7 +72,7 @@ pytest==8.0.0
     # via detect-llm-api-keys (pyproject.toml)
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.2
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
