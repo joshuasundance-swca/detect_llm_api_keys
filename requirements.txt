@@ -10,7 +10,7 @@ babel==2.14.0
     # via sphinx
 bumpver==2023.1129
     # via detect-llm-api-keys (pyproject.toml)
-certifi==2024.2.2
+certifi==2024.7.4
     # via requests
 cfgv==3.4.0
     # via pre-commit
