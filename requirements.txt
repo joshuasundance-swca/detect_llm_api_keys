@@ -73,6 +73,11 @@ pytest==8.2.2
 pyyaml==6.0.1
     # via pre-commit
 requests==2.32.3
+    # via pre-commit
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
@@ -107,8 +112,3 @@ toml==0.10.2
 urllib3==2.2.2
     # via requests
 virtualenv==20.26.3
-    # via pre-commit
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
-setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
