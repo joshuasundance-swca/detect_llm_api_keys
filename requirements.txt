@@ -24,7 +24,7 @@ colorama==0.4.6
     #   click
     #   pytest
     #   sphinx
-coverage==7.5.4
+coverage==7.6.0
     # via
     #   coverage-badge
     #   detect-llm-api-keys (pyproject.toml)
@@ -32,13 +32,13 @@ coverage-badge==1.1.1
     # via detect-llm-api-keys (pyproject.toml)
 distlib==0.3.8
     # via virtualenv
-docutils<0.21
+docutils<0.22
     # via
     #   sphinx
     #   sphinx-rtd-theme
 filelock==3.15.4
     # via virtualenv
-identify==2.5.36
+identify==2.6.0
     # via pre-commit
 idna==3.7
     # via requests
@@ -68,7 +68,7 @@ pre-commit==3.7.1
     # via detect-llm-api-keys (pyproject.toml)
 pygments==2.18.0
     # via sphinx
-pytest==8.2.2
+pytest==8.3.1
     # via detect-llm-api-keys (pyproject.toml)
 pyyaml==6.0.1
     # via pre-commit
@@ -79,7 +79,7 @@ setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerabil
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==7.3.7
+sphinx==7.4.7
     # via
     #   detect-llm-api-keys (pyproject.toml)
     #   sphinx-rtd-theme
@@ -95,13 +95,13 @@ sphinxcontrib-applehelp==1.0.8
     # via sphinx
 sphinxcontrib-devhelp==1.0.6
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.5
+sphinxcontrib-htmlhelp==2.0.6
     # via sphinx
 sphinxcontrib-jquery==4.1
     # via sphinx-rtd-theme
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-qthelp==1.0.7
+sphinxcontrib-qthelp==1.0.8
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
